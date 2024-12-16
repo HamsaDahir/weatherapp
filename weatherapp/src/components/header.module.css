@@ -1,0 +1,28 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.divContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav {
+  width: 500px;
+  display: flex;
+  justify-content: space-between;
+}
+
+button {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 15px;
+}
+
+.bbcName {
+  color: black;
+  font-weight: bold;
+}

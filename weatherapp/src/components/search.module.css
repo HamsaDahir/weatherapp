@@ -1,0 +1,32 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.inputContainer {
+  margin-top: 20px;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+input {
+  height: 30px;
+  padding: 1px 200px;
+}
+
+img {
+  width: 10px;
+  height: 10px;
+  padding: 2px 2px;
+}
+
+.searchButton {
+  padding: 0px 5px;
+  height: 36px;
+}
+
+.searchButton:active {
+  border: none;
+}
